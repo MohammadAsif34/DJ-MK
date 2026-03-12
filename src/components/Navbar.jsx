@@ -6,12 +6,12 @@ import { Link } from "react-router-dom";
 
 const links = [
   { name: "Home", href: "#home" },
-  { name: "Tracks", href: "#tracks" },
+  { name: "About", href: "#about" },
+  // { name: "Tracks", href: "#tracks" },
   // { name: "Mixes", href: "#mixes" },
   { name: "Gigs", href: "#gigs" },
   { name: "Gallery", href: "#gallery" },
-  { name: "About", href: "#about" },
-  { name: "Booking", href: "#booking" },
+  // { name: "Booking", href: "#booking" },
 ];
 
 export default function Navbar() {

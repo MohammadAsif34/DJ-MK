@@ -13,6 +13,9 @@ import { Contact } from "../components/Contact";
 import VideoPlayer from "../components/VideoPlayer";
 import TrackList from "../components/TrackList";
 import { AppBackground } from "../components/AppBackground";
+import { UpcomingEvent } from "../components/UpcomingEvent";
+import MusicGenres from "../components/MusicGenres";
+import ClubGigs from "../components/ClubGigs";
 export default function Home() {
   const gallery = [
     { src: "/gallery/1.jpg" },
@@ -25,14 +28,17 @@ export default function Home() {
       <AppBackground>
         {/* <AppBackground /> */}
         <Hero />
-        <div className="px-[10%] ">
+        <div className="px-[10%] scroll-smooth ">
           {/* <AudioPlayer src="/mixes/latest.mp3" /> */}
-          <TrackList />
+          {/* <TrackList /> */}
           {/* <VideoPlayer /> */}
           <About />
           <GigsPage />
+          <MusicGenres />
+          <ClubGigs />
+          {/* <UpcomingEvent /> */}
           <ImgGrid />
-          <Flyer />
+          {/* <Flyer /> */}
           <BookingForm />
           {/* <Contact /> */}
         </div>

@@ -16,7 +16,7 @@ export default function Hero({ onPlay }) {
   return (
     <section
       id="home"
-      className="relative h-[60vh] md:h-screen px-6 md:px-10 lg:px-18 bg-gradient-to-br/30 backdrop-blur-2xl from-neutral-900/50 via-black/50 to-neutral-800/50 overflow-hidden flex"
+      className=" relative h-[60vh] md:h-screen px-6 md:px-10 lg:px-32 bg-gradient-to-br/30 backdrop-blur-2xl from-neutral-900/50 via-black/50 to-neutral-800/50 overflow-hidden flex"
     >
       {/* Background layers (parallax) */}
       <div className="absolute inset-0 -z-10">
@@ -69,7 +69,23 @@ export default function Hero({ onPlay }) {
         </motion.div>
       </motion.div>
       {/* ================= Hero image area ============= */}
-      <div className="w-0 md:w-full flex items-center justify-center ">
+
+      <div className="hidden w-full sm:flex items-center justify-center ">
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className=" w-full h-screen pt-20 pb-4 "
+        >
+          <img
+            src="/p1.png"
+            alt=""
+            className="h-full w-full object-center object-contain scale-150"
+          />
+        </motion.div>
+      </div>
+      {/*
+      <div className="hidden w-full xl:flex items-center justify-center ">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -113,7 +129,7 @@ export default function Hero({ onPlay }) {
             </div>
           </div>
         </motion.div>
-      </div>
+      </div> */}
       {/* subtle decorative SVG (animated) */}
       <motion.svg
         initial={{ opacity: 0 }}

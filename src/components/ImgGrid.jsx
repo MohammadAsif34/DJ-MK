@@ -8,7 +8,7 @@ export const ImgGrid = () => {
         <motion.h2
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ amount: 0.3 }}
+          viewport={{ once: 0.3 }}
           transition={{ duration: 0.6 }}
           className="text-3xl md:text-5xl font-bold text-center text-white mb-20"
         >
@@ -19,14 +19,14 @@ export const ImgGrid = () => {
             class="grid gap-4"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ amount: 0.3 }}
+            viewport={{ once: 0.3 }}
             transition={{ duration: 0.5 }}
           >
             <div>
               <motion.img
                 initial={{ opacity: 0, scale: 0.9, y: 20 }}
                 whileInView={{ opacity: 1, scale: 1, y: 0 }}
-                viewport={{ amount: 0.3 }}
+                viewport={{ once: 0.3 }}
                 transition={{ duration: 0.6 }}
                 className="h-auto max-w-full rounded-lg"
                 src="/album/img-101.jpg"
@@ -38,7 +38,7 @@ export const ImgGrid = () => {
               <motion.img
                 initial={{ opacity: 0, scale: 0.9, y: 20 }}
                 whileInView={{ opacity: 1, scale: 1, y: 0 }}
-                viewport={{ amount: 0.3 }}
+                viewport={{ once: 0.3 }}
                 transition={{ duration: 0.6 }}
                 className="h-auto max-w-full rounded-lg"
                 src="/album/img-1.jpg"
@@ -50,7 +50,7 @@ export const ImgGrid = () => {
               <motion.img
                 initial={{ opacity: 0, scale: 0.9, y: 20 }}
                 whileInView={{ opacity: 1, scale: 1, y: 0 }}
-                viewport={{ amount: 0.3 }}
+                viewport={{ once: 0.3 }}
                 transition={{ duration: 0.6 }}
                 className="h-auto max-w-full rounded-lg"
                 src="/album/img-2.jpg"
@@ -63,14 +63,14 @@ export const ImgGrid = () => {
             class="grid gap-4"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ amount: 0.3 }}
+            viewport={{ once: 0.3 }}
             transition={{ duration: 0.5 }}
           >
             <div>
               <motion.img
                 initial={{ opacity: 0, scale: 0.9, y: 20 }}
                 whileInView={{ opacity: 1, scale: 1, y: 0 }}
-                viewport={{ amount: 0.3 }}
+                viewport={{ once: 0.3 }}
                 transition={{ duration: 0.6 }}
                 className="h-auto max-w-full rounded-lg"
                 src="/album/img-3.jpg"
@@ -82,7 +82,7 @@ export const ImgGrid = () => {
               <motion.img
                 initial={{ opacity: 0, scale: 0.9, y: 20 }}
                 whileInView={{ opacity: 1, scale: 1, y: 0 }}
-                viewport={{ amount: 0.3 }}
+                viewport={{ once: 0.3 }}
                 transition={{ duration: 0.6 }}
                 className="h-auto max-w-full rounded-lg"
                 src="/album/img-102.jpg"
@@ -94,7 +94,7 @@ export const ImgGrid = () => {
               <motion.img
                 initial={{ opacity: 0, scale: 0.9, y: 20 }}
                 whileInView={{ opacity: 1, scale: 1, y: 0 }}
-                viewport={{ amount: 0.3 }}
+                viewport={{ once: 0.3 }}
                 transition={{ duration: 0.6 }}
                 className="h-auto max-w-full rounded-lg"
                 src="/album/img-4.jpg"
@@ -107,14 +107,14 @@ export const ImgGrid = () => {
             class="grid gap-4"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ amount: 0.3 }}
+            viewport={{ once: 0.3 }}
             transition={{ duration: 0.5 }}
           >
             <div>
               <motion.img
                 initial={{ opacity: 0, scale: 0.9, y: 20 }}
                 whileInView={{ opacity: 1, scale: 1, y: 0 }}
-                viewport={{ amount: 0.3 }}
+                viewport={{ once: 0.3 }}
                 transition={{ duration: 0.6 }}
                 className="h-auto max-w-full rounded-lg"
                 src="/album/img-5.jpg"
@@ -126,7 +126,7 @@ export const ImgGrid = () => {
               <motion.img
                 initial={{ opacity: 0, scale: 0.9, y: 20 }}
                 whileInView={{ opacity: 1, scale: 1, y: 0 }}
-                viewport={{ amount: 0.3 }}
+                viewport={{ once: 0.3 }}
                 transition={{ duration: 0.6 }}
                 className="h-auto max-w-full rounded-lg"
                 src="/album/img-6.jpg"
@@ -138,7 +138,7 @@ export const ImgGrid = () => {
               <motion.img
                 initial={{ opacity: 0, scale: 0.9, y: 20 }}
                 whileInView={{ opacity: 1, scale: 1, y: 0 }}
-                viewport={{ amount: 0.3 }}
+                viewport={{ once: 0.3 }}
                 transition={{ duration: 0.6 }}
                 className="h-auto max-w-full rounded-lg"
                 src="/album/img-103.jpg"
@@ -152,14 +152,14 @@ export const ImgGrid = () => {
             class="grid gap-4"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ amount: 0.3 }}
+            viewport={{ once: 0.3 }}
             transition={{ duration: 0.5 }}
           >
             <div>
               <motion.img
                 initial={{ opacity: 0, scale: 0.9, y: 20 }}
                 whileInView={{ opacity: 1, scale: 1, y: 0 }}
-                viewport={{ amount: 0.3 }}
+                viewport={{ once: 0.3 }}
                 transition={{ duration: 0.6 }}
                 className="h-auto max-w-full rounded-lg"
                 src="/album/img-102.jpg"
@@ -171,7 +171,7 @@ export const ImgGrid = () => {
               <motion.img
                 initial={{ opacity: 0, scale: 0.9, y: 20 }}
                 whileInView={{ opacity: 1, scale: 1, y: 0 }}
-                viewport={{ amount: 0.3 }}
+                viewport={{ once: 0.3 }}
                 transition={{ duration: 0.6 }}
                 className="h-auto max-w-full rounded-lg"
                 src="/album/img-7.jpg"
@@ -183,7 +183,7 @@ export const ImgGrid = () => {
               <motion.img
                 initial={{ opacity: 0, scale: 0.9, y: 20 }}
                 whileInView={{ opacity: 1, scale: 1, y: 0 }}
-                viewport={{ amount: 0.3 }}
+                viewport={{ once: 0.3 }}
                 transition={{ duration: 0.6 }}
                 className="h-auto max-w-full rounded-lg"
                 src="/album/img-8.jpg"

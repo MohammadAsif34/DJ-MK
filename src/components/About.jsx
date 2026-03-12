@@ -1,6 +1,7 @@
 // src/components/About.jsx
 import React from "react";
 import { motion } from "framer-motion";
+import { about } from "../data/dataset";
 
 export default function About() {
   return (
@@ -14,24 +15,21 @@ export default function About() {
         transition={{ duration: 0.6 }}
         className="text-3xl md:text-5xl font-bold text-white mb-20"
       >
-        About DJ Nexora
+        About DJ Vicky Hussain
       </motion.h2>
       <motion.p
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.3 }}
-        className="max-w-3xl mx-auto leading-relaxed max-md:text-sm"
+        className=" md:mx-40 md:text-xl   text-justify"
       >
-        Blending hypnotic rhythms, deep basslines, and energetic melodies, DJ
-        Nexora has performed across multiple continents, leaving dance floors
-        electrified. With over 100+ live shows and chart-topping remixes,
-        Nexora’s sound captures the heartbeat of the underground.
+        {about}
       </motion.p>
 
       <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
         {[
           { label: "Live Shows", value: "100+" },
-          { label: "Countries", value: "12" },
+          { label: "Countries", value: "4" },
           { label: "Years in Scene", value: "8" },
         ].map((stat) => (
           <motion.div

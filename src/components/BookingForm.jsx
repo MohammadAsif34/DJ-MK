@@ -29,14 +29,17 @@ export default function BookingForm() {
   };
 
   return (
-    <section id="booking" className="bg-neutral-950/50 backdrop-blur-2xl shadow-md shadow-indigo-500/20 rounded-2xl py-20 md:px-6">
+    <section
+      id="booking"
+      className="bg-neutral-950/50 backdrop-blur-2xl shadow-md shadow-indigo-500/20 rounded-2xl py-20 md:px-6"
+    >
       <motion.h2
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         className="text-3xl md:text-5xl font-bold text-center text-white mb-20"
       >
-        Book DJ Nexora
+        Let’s drop the beat together
       </motion.h2>
 
       <motion.form
@@ -64,7 +67,7 @@ export default function BookingForm() {
             onChange={handleChange}
             required
           />
-          <Input
+          {/* <Input
             label="Location"
             icon={<MapPin size={18} />}
             name="location"
@@ -78,7 +81,7 @@ export default function BookingForm() {
             type="date"
             value={form.date}
             onChange={handleChange}
-          />
+          /> */}
         </div>
 
         <div>
@@ -101,7 +104,7 @@ export default function BookingForm() {
           className="flex items-center gap-2 bg-indigo-500 hover:bg-indigo-600 text-white font-semibold px-6 py-3 rounded-xl"
         >
           <Send size={18} />
-          {submitted ? "Sent!" : "Send Request"}
+          {submitted ? "Sent!" : "Send Message"}
         </motion.button>
       </motion.form>
     </section>
